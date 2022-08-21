@@ -10,6 +10,7 @@ export const ServicesContainer = styled.div`
 export const ServicesWrapper = styled.div`
   margin: 0 auto;
   white-space: nowrap;
+  overflow: auto;
 
 
 `;
