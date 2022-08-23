@@ -9,7 +9,8 @@ import {
   ServicesCard,
   ServicesIcon,
   ServicesH2,
-  ServicesP
+  ServicesP,
+  Price
 } from './ServicesElements';
 
 const Services = () => {
@@ -23,6 +24,9 @@ const Services = () => {
           <ServicesP>
             Delicious tacos made with quality meat in between hand made corn tortillas.
           </ServicesP>
+          <Price>
+            $2.50
+          </Price>
         </ServicesCard>
         <ServicesCard>
           <ServicesH2>Pasta</ServicesH2>
@@ -30,6 +34,9 @@ const Services = () => {
           <ServicesP>
             Made from scratch with hand made meatballs.
           </ServicesP>
+          <Price>
+            $10
+          </Price>
         </ServicesCard>
         <ServicesCard>
           <ServicesH2>Burgers</ServicesH2>
@@ -38,6 +45,9 @@ const Services = () => {
             Premium beef patties topped with pickles, tomatoes, lettuce, grilled onions,
             mayo, ketchup, and thick American cheese.
           </ServicesP>
+          <Price>
+            $5
+          </Price>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
