@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon1 from '../../images/il_340x270.3679059405_51et.avif';
+import Icon1 from '../../images/tacos.jpeg';
 import Icon2 from '../../images/pasta.jpeg';
 import Icon3 from '../../images/burger.jpeg';
 import {
