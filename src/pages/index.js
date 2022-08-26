@@ -8,24 +8,7 @@ import {useEffect} from 'react';
 
 function ResHome() {
   const [isOpen, setIsOpen] = useState(false);
-  const [windowSize, setWindowSize] = useState(getWindowSize());
-    useEffect(() => {
-        function handleWindowResize() {
-            setWindowSize(getWindowSize());
-        }
 
-        window.addEventListener('resize', handleWindowResize);
-
-        return () => {
-            window.removeEventListener('resize', handleWindowResize);
-        };
-    }, []);
-
-    function getWindowSize() {
-        const {innerWidth, innerHeight} = window;
-        console.log({innerWidth, innerHeight})
-        return {innerWidth, innerHeight};
-    }
 
     const toggle = () => {
     setIsOpen(!isOpen);

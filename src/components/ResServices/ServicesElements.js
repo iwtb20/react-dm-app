@@ -4,7 +4,7 @@ export const ServicesContainer = styled.div`
   background: #010606;
   padding-top: 70px;
   margin-bottom: 5px;
-  max-width: 360px;
+  max-width: 900px;
   margin-right: auto;
   margin-left: auto;
 
@@ -21,28 +21,39 @@ export const ServicesWrapper = styled.div`
 
 `;
 
-export const ServicesCard = styled.div`
+export const ServicesCard = styled.div.attrs(props => ({
+    // we can define static props
+
+    // or we can define dynamic ones
+    size: props.size || "1em",
+}))`
   background: #fff;
   overflow: auto;
   display: inline-block;
   white-space: normal;
   position: relative;
   border-radius: 10px;
-  height: 340px;
-  width: 200px;
+  height: 400px;
+  width: 85%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
-
+  
+  @media screen and (min-height: 700px) {
+    height: 500px;
+  }
   &:hover {
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
+
+
 `;
 
 export const ServicesIcon = styled.img`
-  height: 160px;
-  width: 160px;
+  max-height: 100%;
+  max-width: 100%;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -74,9 +85,7 @@ export const ServicesP = styled.p`
 export const Price = styled.p`
   color: darkgreen;
   display: block;
-  position:absolute;
-  bottom:0;
-  right:0;
+  text-align: center;
   clear: both;
 
 `;

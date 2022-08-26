@@ -19,7 +19,7 @@ const ResSidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink
-            to='about'
+            to='appetizers'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -27,10 +27,10 @@ const ResSidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            About
+            Appetizers
           </SidebarLink>
           <SidebarLink
-            to='discover'
+            to='MexicanTradicionales'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -38,10 +38,10 @@ const ResSidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Discover
+            Mexican Tradicionales
           </SidebarLink>
           <SidebarLink
-            to='services'
+            to='Pollo'
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -49,7 +49,7 @@ const ResSidebar = ({ isOpen, toggle }) => {
             exact='true'
             offset={-80}
           >
-            Services
+            Pollo
           </SidebarLink>
           <SidebarLink
             to='signup'

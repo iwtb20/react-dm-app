@@ -39,7 +39,7 @@ const ResNavbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo onClick={toggleHome} to='/'>
-              Aguascalientes-DynamicMenu
+              Mi Tierra-DynamicMenu
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -59,38 +59,38 @@ const ResNavbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='discover'
+                  to='appetizers'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Discover
+                  Appetizers
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='services'
+                  to='MexicanTradicionales'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Services
+                  Mexican Tradicionales
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='/'
+                  to='Pollo'
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact='true'
                   offset={-80}
                 >
-                  Sign Up
+                  Pollo
                 </NavLinks>
               </NavItem>
             </NavMenu>
