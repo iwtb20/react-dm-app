@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
-  background: #010606;
+  background: lightsteelblue;
   padding-top: 70px;
   margin-bottom: 5px;
   max-width: 900px;
@@ -61,7 +61,7 @@ export const ServicesIcon = styled.img`
 
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: black;
   margin-bottom: 5px;
   padding: 5px; 
   text-align: center;
