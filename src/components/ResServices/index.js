@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import Icon1 from '../../images/tacosmi.webp';
-import Icon2 from '../../images/molemi.webp';
-import Icon3 from '../../images/marismi.webp';
+import Icon1 from '../../images/sotacos.jpg';
+import Icon2 from '../../images/somemole.jpg';
+import Icon3 from '../../images/somemaris.jpg';
 import {
   ServicesContainer,
   ServicesH1,
