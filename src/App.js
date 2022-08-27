@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import OrderFormPage from "./pages/orderform";
+import ListViewPage from "./pages/listview";
 import ResHome from "./pages";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path='/' element={<ResHome />}  />
-                <Route path='/orderform' element={<OrderFormPage/>} />
+                <Route path='/orderform' element={<ListViewPage/>} />
             </Routes>
         </Router>
     );
