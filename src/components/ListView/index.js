@@ -27,21 +27,21 @@ const ListView = () => {
                     </Price>
                 </DishDescription>
                 <DishTitle>
-                    Queso Fundido
+                    Guacamole
                 </DishTitle>
                 <DishDescription>
-                    Melted cheese served with tortillas. Add protein (optional)
+                    Delicious guacamole
                     <Price>
-                        $2.50
+                        $5.50
                     </Price>
                 </DishDescription>
                 <DishTitle>
-                    Queso Fundido
+                    Elotes Callejeros
                 </DishTitle>
                 <DishDescription>
-                    Melted cheese served with tortillas. Add protein (optional)
+                    Delicious corn
                     <Price>
-                        $2.50
+                        $3.50
                     </Price>
                 </DishDescription>
 
